@@ -25,7 +25,7 @@ spec:
       - env:
         - name: GET_HOSTS_FROM
           value: dns
-        image: gcr.io/google-samples/gb-frontend:v4
+        image: qingyuancloud/gb-frontend:v4
         name: frontend
         ports:
         - containerPort: 80
